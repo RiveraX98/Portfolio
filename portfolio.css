@@ -1,22 +1,25 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing:border-box;
+} */
+
+@media(max-width:600px){
+
+}
+
+
+@media(min-width:600px){
+    
 }
 
 body{
-    width: 100%;
+    /* width: 100%; */
     min-height: 100vh;
     background-image: url("https://t3.ftcdn.net/jpg/05/37/17/24/360_F_537172411_C4GmfD6cpU7mrra2CYzyYUL34w3Bk1mN.jpg");
 }
 
-.contanier{
-    width:100%;
-    height:100vh;
-    display: flex;
-    justify-content: center;
-    
-}
+
 
 #intro,#skills,#contact, #resume{
     background-color:rgb(31, 29, 29);
