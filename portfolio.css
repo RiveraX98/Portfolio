@@ -1,9 +1,4 @@
-/* *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing:border-box;
-} */
-
+/* 
 @media(max-width:600px){
 
 }
@@ -11,11 +6,10 @@
 
 @media(min-width:600px){
     
-}
+} */
+
 
 body{
-    /* width: 100%; */
-    min-height: 100vh;
     background-image: url("https://t3.ftcdn.net/jpg/05/37/17/24/360_F_537172411_C4GmfD6cpU7mrra2CYzyYUL34w3Bk1mN.jpg");
 }
 
@@ -23,139 +17,54 @@ body{
 
 #intro,#skills,#contact, #resume{
     background-color:rgb(31, 29, 29);
-    margin: 50px;
-    padding: 20px;
-}
-
-
-/* position elements in warbler section */
-#warbler-desc{
-position: relative;
-width: 500px;
-left: 400px;
-top: 30px;
-}
-#warbler{
-    height: 400px;
-}
-#warbler-img-div{
-    position: relative;
-    bottom: 150px;
-}
-#warbler-img-div p{
-position:relative;
-top:20px;
-}
-
-/* position elements in lunchly section */
-#lunchly{
-    height: 400px;
-}
-#lunchly-desc{
-    position: relative;
-    width: 500px;
-    top: 30px;
-    }
    
- #lunchly-img-div{
-  position: relative;
- 
-  bottom:250px;
-  text-align: end;
-    }
-
-    
-
-/* position elements in cupcakes section */
-
-#cupcakes{
-    height: 400px;
 }
 
-#cupcakes-desc{
-    position: relative;
-    width: 500px;
-    left: 450px;
-    top: 70px;
-    }
-    
-#cupcakes-img-div{
-    position: relative;
-    bottom: 150px;
-    }
-#cupcakes-img-div p{
-    position:relative;
-   
-    
-    }
-    
 
-
-/* style into */
-#intro{
-margin: 70px;
-padding: 80px;
-}
-
-#intro-title{
-    font-size: 4rem;
-}
-p,a,h2,h1,hr{
+p,a,hr,h1{
     color: white;
 }
 
 h3,h2{
     color: rgb(86, 160, 238);
 }
+
 /* create and use animations */
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
     40% {transform: translateY(-30px);} 
     60% {transform: translateY(-15px);} 
  } 
+
+
  @keyframes spin {
     0% { transform: rotate(0deg); }
     100%{ transform: rotate(360deg); }
   }
 
   .bi-gear-fill{
-  /* position: absolute; */
-    animation: spin 2s linear infinite;
+    /* display:flex ; */
+    animation: spin 3s linear infinite ;
   }
+
+
 .bi-chevron-double-down{
 display: flex;
 font-size: 2rem;
 color: white;
 justify-content: center;
-
  animation: bounce 2s;
  animation-iteration-count: infinite;
 }
 
 
+
 /* add style to section projects */
 .project{
     background-color:rgb(31, 29, 29);
-    margin: 50px;
-    padding: 30px;
-    border-radius: 1.5%;
-}
-
-#projects a{
-    text-decoration: none;
-    color: black;
-    background-color:  rgb(86, 160, 238);
 }
 
 
 
-.skills{
-
-    margin: 10px;
-}
 
 
-/* center footer */
-footer{
-   text-align: center;
-}

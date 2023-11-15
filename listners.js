@@ -1,9 +1,9 @@
-$(".warbler-img").on("click", () => {
+$("#warbler-img").on("click", () => {
   window.location.assign("https://riverax98-projects-warbler.onrender.com");
 });
-$(".lunchly-img").on("click", () => {
+$("#lunchly-img").on("click", () => {
   window.location.assign("https://riverax98-projects-lunchly.onrender.com");
 });
-$(".cupcakes-img").on("click", () => {
+$("#cupcakes-img").on("click", () => {
   window.location.assign("https://riverax98-projects-cupcakes.onrender.com");
 });

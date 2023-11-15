@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Xavier's Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link href="portfolio.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="row">
+      <nav class="navbar sticky-top bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-3" href="#intro">Xavier R</a>
+
+          <div class="nav nav-underline nav justify-content-end">
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#resume">Resume</a>
+            <a class="nav-link me-3" href="#contact">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div id="intro" class="row m-5 p-5 rounded border">
+        <p class="lead">Hello! I'm Xavier Rivera a-</p>
+        <div class="col-12">
+          <h1 class="text-center display-4">Full Stack Software Engineer</h1>
+          <hr />
+        </div>
+        <div>
+          <p class="fs-5">
+            With experience in front and back-end technologies, my goal is to
+            bridge the gap between design and functionality. By leveraging my
+            extensive skill set, I create seamless and intuitive user
+            experiences while ensuring robust and scalable backends. Whether
+            it's building web applications, developing APIs, or deploying
+            databases, I take pride in delivering high-quality solutions that
+            meet customer needs.
+          </p>
+          <p>Based in Florida</p>
+          <div class="text-center">
+            <i class="bi-chevron-double-down"></i>
+          </div>
+        </div>
+      </div>
+
+      <div id="skills" class="row mt-5 p-4 rounded border text-md-center">
+        <h2 class="mb-3">Skills</h2>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="row justify-content-lg-evenly text-md-start">
+              <div class="col-2">
+                <p>
+                  <i class="bi bi-gear-fill"></i>
+                  Python
+                </p>
+              </div>
+
+              <div class="col-2">
+                <p>
+                  <i class="bi bi-gear-fill"></i>
+                  JavaScript
+                </p>
+              </div>
+
+              <div class="col-2">
+                <p>
+                  <i class="bi bi-gear-fill"></i>
+                  HTML
+                </p>
+              </div>
+
+              <div class="col-2">
+                <p>
+                  <i class="bi bi-gear-fill"></i>
+                  CSS
+                </p>
+              </div>
+              <div class="col-2">
+                <p>
+                  <i class="bi bi-gear-fill"></i>
+                  Bootstrap
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="row justify-content-evenly text-md-start">
+              <div class="col-2">
+                <p>
+                  <i class="bi bi-gear-fill"></i>
+                  Flask
+                </p>
+              </div>
+
+              <div class="col-2">
+                <p>
+                  <i class="bi bi-gear-fill"></i>
+                  Node.js
+                </p>
+              </div>
+              <div class="col-2">
+                <p>
+                  <i class="bi bi-gear-fill"></i>
+                  Express
+                </p>
+              </div>
+              <div class="col-2">
+                <p>
+                  <i class="bi bi-gear-fill"></i>
+                  React
+                </p>
+              </div>
+              <div class="col-2">
+                <p>
+                  <i class="bi bi-gear-fill"></i>
+                  SQL
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="projects" class="row mt-5">
+        <h2>Projects</h2>
+        <hr />
+        <p>Here are some projects that show off my skills</p>
+      </div>
+
+      <div class="project mt-5 p-4 rounded border">
+        <h3 class="text-decoration-underline">Warbler</h3>
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <img
+              id="warbler-img"
+              class="my-3"
+              style="width: 300px; height: 200px"
+              src="images/warbler-prev.png"
+              alt=""
+            />
+          </div>
+
+          <div class="col-md-6 my-3">
+            <p class="description lead">
+              Warbler is developed using Flask, a powerful Python framework,
+              along with the robust security features provided by bcrypt and the
+              flexibility of SQLAlchemy. With a clean and modern user interface,
+              the website allows users to seamlessly create an account, create
+              post, and follow friends!
+            </p>
+            <a
+              href="https://riverax98-projects-warbler.onrender.com"
+              target="_blank"
+              class="btn btn-primary"
+              >VIew</a
+            >
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <small class="text-light">
+                Tools used: HTML, Python, Flask, Postgres, SQLAlchemy, Bcrypt,
+                WTForms, Bootstrap
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project mt-5 p-4 rounded border">
+        <h3 class="text-decoration-underline">Lunchly</h3>
+        <div class="row">
+          <div class="col-md-6 my-3">
+            <p class="description lead">
+              Lunchly excels in managing and organizing reservations in a
+              user-friendly manner. Users can expect a seamless experience when
+              making and modifying reservations, while businesses can
+              efficiently manage and track bookings. This website incorporates a
+              robust database management system powered by node-pg. This ensures
+              secure and efficient storage and retrieval of reservation data,
+              offering high scalability and reliability.
+            </p>
+            <a
+              href="https://riverax98-projects-lunchly.onrender.com"
+              target="_blank"
+              class="btn btn-primary"
+              >VIew</a
+            >
+          </div>
+          <div class="col-md-6 text-center">
+            <img
+              id="lunchly-img"
+              class="my-3"
+              style="width: 300px; height: 200px"
+              src="images/lunchly-prev.png"
+              alt=""
+            />
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <small class="text-light">
+                Tools used: HTML, Bootstrap, Javascript, Node.js, Node-pg,
+                Express
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project mt-5 p-4 rounded border">
+        <h3 class="text-decoration-underline">Cupcake</h3>
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <img
+              id="cupcakes-img"
+              class="my-3"
+              style="width: 300px; height: 200px"
+              src="images/cupcakes-prev.png"
+              alt=""
+            />
+          </div>
+
+          <div class="col-md-6 my-3">
+            <p class="description lead">
+              Whether it's fetching data from external sources, processing
+              requests, or displaying real-time updates, this website's
+              combination of Python and Flask, along with its JavaScript
+              front-end demonstrates efficiency to create dynamic websites with
+              seamless API integration.
+            </p>
+            <a
+              href="https://riverax98-projects-cupcakes.onrender.com"
+              target="_blank"
+              class="btn btn-primary"
+              >VIew</a
+            >
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <small class="text-light">
+                Tools used: Python, Flask, Jinja, SQLAlchemy, Javascript,
+                Jquery, Css
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact" class="row my-5 p-3 rounded border">
+        <h2>Contact Me</h2>
+        <p>Email <i class="bi bi-envelope"></i></p>
+        <a href="mailto:rivera.ax98@gmail.com">rivera.ax98@gmail.com</a>
+        <p>Github <i class="bi bi-github"></i></p>
+        <a href="https://github.com/RiveraX98" target="_blank"
+          >https://github.com/RiveraX98</a
+        >
+        <p>Linkedin <i class="bi bi-linkedin"></i></p>
+        <a href="//www.linkedin.com/in/xavier-rivera-xjr1998" target="_blank"
+          >https://www.linkedin.com/in/xavier-rivera-xjr1998</a
+        >
+      </div>
+
+      <div id="resume" class="row my-5 p-3 rounded border">
+        <h2>Resume</h2>
+        <p>Take a look at my resume :</p>
+
+        <a href="xaviers-resume.pdf" download="xaviers-resume"
+          >Xavier's Resume</a
+        >
+      </div>
+    </div>
+    <footer>
+      <p class="text-center">
+        Copyright <i class="bi bi-c-circle"></i> 2023 Built by Xavier Rivera
+      </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="listners.js"></script>
+  </body>
+</html>
