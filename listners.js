@@ -4,6 +4,6 @@ $("#warbler-img").on("click", () => {
 $("#lunchly-img").on("click", () => {
   window.location.assign("https://riverax98-projects-lunchly.onrender.com");
 });
-$("#cupcakes-img").on("click", () => {
-  window.location.assign("https://riverax98-projects-cupcakes.onrender.com");
+$("#frankly-img").on("click", () => {
+  window.location.assign("https://frankly.onrender.com/login");
 });
